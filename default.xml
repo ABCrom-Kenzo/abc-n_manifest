@@ -34,7 +34,7 @@
   <project path="external/DUtils" name="abc-n_external_DUtils" remote="abc" revision="n2" />
   <project path="frameworks/av" name="abc-n_frameworks_av" groups="pdk" remote="abc" revision="n2" />
   <project path="frameworks/base" name="abc-n_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abc-kenzo" revision="n2" />
-  <project path="frameworks/native" name="abc-n_frameworks_native" groups="pdk" remote="abc" revision="n2" />
+  <project path="frameworks/native" name="abc-n_frameworks_native" groups="pdk" remote="abc-kenzo" revision="n2" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nos" revision="n2" />
   <project path="frameworks/rs" name="abc-n_frameworks_rs" groups="pdk" remote="abc" revision="n2" />
   <project path="frameworks/support" name="abc-n_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="n2" />
