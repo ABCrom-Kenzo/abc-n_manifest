@@ -79,6 +79,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <!-- AOSP packages -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -512,4 +514,6 @@
   <!-- Linaro TC  -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="aarch64-linux-gnu" remote="gitlab" revision="linaro" />
 
+  <!-- SD Clang -->
+  <project path="vendor/qcom/sdclang-3.8/linux-x86" name="AOSP-JF-MM/android_vendor_qcom_sdclang-3.8_linux-x86" remote="github" revision="aosp-7.1.2" />
 </manifest>
