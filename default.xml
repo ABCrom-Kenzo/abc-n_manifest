@@ -18,6 +18,8 @@
            remote="aosp"
            sync-c="true"
            sync-j="4" />
+  <remote name="gitlab"
+           fetch="https://gitlab.com/GCC-TC" /> 
 
   <!-- Scripts -->
   <project path="scripts" name="scripts" remote="abc" revision="n2" />
@@ -507,4 +509,8 @@
   
   <!-- Extra -->
   <include name="devices/kenzo.xml" />
+
+  <!-- Linaro TC  -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="aarch64-linux-gnu" remote="gitlab" revision="linaro" />
+
 </manifest>
