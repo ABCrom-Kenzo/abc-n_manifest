@@ -34,7 +34,7 @@
   <project path="bootable/recovery" name="abc-n_bootable_recovery" groups="pdk" remote="abc" revision="n2" />
   <project path="external/busybox" name="abc-n_external_busybox" remote="abc" revision="n2" />
   <project path="external/DUtils" name="abc-n_external_DUtils" remote="abc" revision="n2" />
-  <project path="frameworks/av" name="abc-n_frameworks_av" groups="pdk" remote="abc" revision="n2" />
+  <project path="frameworks/av" name="abc-n_frameworks_av" groups="pdk" remote="abc-kenzo" revision="n2" />
   <project path="frameworks/base" name="abc-n_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abc-kenzo" revision="n2" />
   <project path="frameworks/native" name="abc-n_frameworks_native" groups="pdk" remote="abc-kenzo" revision="n2" />
   <project path="frameworks/opt/telephony" name="abc-n_frameworks_opt_telephony" remote="abc-kenzo" revision="n2" />
@@ -235,7 +235,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
+  <project path="external/libpng" name="AospExtended/platform_external_libpng" groups="pdk" remote="github" revision="7.x" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
@@ -301,7 +301,7 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
+  <project path="external/skia" name="AospExtended/platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="7.x" />
   <project path="external/sl4a" name="platform/external/sl4a" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
