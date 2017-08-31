@@ -18,8 +18,9 @@
            remote="aosp"
            sync-c="true"
            sync-j="4" />
-  <remote name="gitlab"
-           fetch="https://gitlab.com/GCC-TC" /> 
+  <remote name = "bb"
+          revision = "master"
+          fetch = "https://bitbucket.org/" />
 
   <!-- Scripts -->
   <project path="scripts" name="scripts" remote="abc" revision="n2" />
@@ -511,8 +512,8 @@
   <!-- Extra -->
   <include name="devices/kenzo.xml" />
 
-  <!-- Linaro TC  -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="aarch64-linux-gnu" remote="gitlab" revision="linaro" />
+  <!-- UBER Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" />
 
   <!-- SD Clang -->
   <project path="vendor/qcom/sdclang-3.8/linux-x86" name="AOSP-JF-MM/android_vendor_qcom_sdclang-3.8_linux-x86" remote="github" revision="aosp-7.1.2" />
