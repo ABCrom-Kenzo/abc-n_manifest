@@ -14,7 +14,7 @@
            fetch="https://github.com/ABCrom-Kenzo/" />
   <remote name="nos"
            fetch="https://github.com/nitrogen-project/" />
-  <default revision="refs/tags/android-7.1.2_r29"
+  <default revision="refs/tags/android-7.1.2_r33"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -302,7 +302,7 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="AospExtended/platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="7.x" />
+  <project path="external/skia" name="android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="abc-kenzo" revision="n2" />
   <project path="external/sl4a" name="platform/external/sl4a" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
@@ -398,7 +398,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="nos" revision="n2" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="nos" revision="n2-caf" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="nos" revision="n2-8952" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="abc-kenzo" revision="n2-8952" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="nos" revision="n2-8952" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="nos" revision="n2-8952" />
