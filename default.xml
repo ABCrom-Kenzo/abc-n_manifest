@@ -63,7 +63,7 @@
   <project path="packages/providers/TelephonyProvider" name="abc_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="n2" />
   <project path="packages/services/Telecomm" name="abc_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="abc-kenzo" revision="n2" />
   <project path="packages/services/Telephony" name="abc_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="abc-kenzo" revision="n2" />
-  <project path="system/core" name="abc_system_core" groups="pdk" remote="abc" revision="n2" />
+  <project path="system/core" name="abc_system_core" groups="pdk" remote="abc-kenzo" revision="n2" />
   <project path="system/extras" name="abc_system_extras" groups="pdk" remote="abc" revision="n2" />
   <project path="system/media" name="abc_system_media" groups="pdk" remote="abc" revision="n2" />
   <project path="system/netd" name="abc_system_netd" groups="pdk" remote="abc" revision="n2" />
