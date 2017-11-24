@@ -41,7 +41,7 @@
   <!-- <project path="external/DUtils" name="abc_external_DUtils" remote="abc" revision="o" />-->
   <project path="external/wpa_supplicant_8" name="abc_external_wpa_supplicant_8" groups="pdk" remote="abc" revision="o" />
   <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" revision="o" />
-  <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o" />
+  <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abckenzo" revision="o" />
   <project path="frameworks/native" name="abc_frameworks_native" groups="pdk" remote="abc" revision="o" />
   <project path="frameworks/opt/telephony" name="abc_frameworks_opt_telephony" groups="pdk" remote="abc" revision="o" />
   <project path="frameworks/rs" name="abc_frameworks_rs" groups="pdk" remote="abc" revision="o" />
