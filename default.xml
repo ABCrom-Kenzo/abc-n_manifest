@@ -12,6 +12,8 @@
            fetch="https://github.com" />
   <remote name="abc"
            fetch="https://github.com/ezio84/" />
+  <remote name="abckenzo"
+           fetch="https://github.com/ABCrom-Kenzo" />
   <remote name="substratum"
            fetch="https://github.com/substratum/" />
 
@@ -20,7 +22,7 @@
   <project path="scripts/vendor-blobs-extractfromfactory" name="vendor-blobs-extractfromfactory" remote="abc" revision="o" />
   <project path="scripts/enjarify-prebuiltApkExtraction" name="enjarify-prebuiltApkExtraction" remote="abc" revision="o" />
   <!-- ABC Repo's -->
-  <project path="build/make" name="abc_build" remote="abc" revision="o" groups="pdk" >
+  <project path="build/make" name="abc_build" remote="abckenzo" revision="o" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -33,7 +35,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="manifest" name="abc_manifest" remote="abc" revision="o" />
+  <project path="manifest" name="abc_manifest" remote="abckenzo" revision="o" />
   <project path="bootable/recovery" name="abc_bootable_recovery" groups="pdk" remote="abc" revision="o" />
   <!-- <project path="external/busybox" name="abc_external_busybox" remote="abc" revision="o" />-->
   <!-- <project path="external/DUtils" name="abc_external_DUtils" remote="abc" revision="o" />-->
@@ -64,19 +66,14 @@
   <project path="packages/services/Telecomm" name="abc_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o" />
   <project path="packages/services/Telephony" name="abc_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o" />
   <project path="external/toybox" name="abc_external_toybox" groups="pdk" remote="abc" revision="o" />
-  <project path="system/core" name="abc_system_core" groups="pdk" remote="abc" revision="o" />
+  <project path="system/core" name="abc_system_core" groups="pdk" remote="abckenzo" revision="o" />
   <project path="system/extras" name="abc_system_extras" groups="pdk" remote="abc" revision="o" />
   <project path="system/media" name="abc_system_media" groups="pdk" remote="abc" revision="o" />
   <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" revision="o" />
-  <project path="vendor/nexus" name="abc_vendor_nexus" remote="abc" revision="o" />
+  <project path="vendor/nexus" name="abc_vendor_nexus" remote="abckenzo" revision="o" />
 
     <!-- Substratum 
   <project path="packages/services/ThemeInterfacer" name="interfacer" remote="substratum" revision="n-rootless" />-->
-
-  <!-- Angler trees -->
-  <project path="device/huawei/angler" name="abc_device_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="abc" revision="o" />
-  <project path="kernel/huawei/angler" name="abc_kernel_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="abc" revision="upstream_108" />
-  <project path="vendor/huawei" name="abc_vendor_huawei" remote="abc" revision="o" />
 
   <!-- AOSP trees -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -228,8 +225,6 @@
   <project path="external/libmojo" name="platform/external/libmojo" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk" />
-  <project path="external/libnetfilter_conntrack" name="platform/external/libnetfilter_conntrack" groups="pdk" />
-  <project path="external/libnfnetlink" name="platform/external/libnfnetlink" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -387,14 +382,9 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994,pdk" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
@@ -403,7 +393,6 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84,pdk" />
   <project path="hardware/qcom/msm8x09" name="platform/hardware/qcom/msm8x09" groups="qcom_msm8x09" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
@@ -546,5 +535,8 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+  
+  <!-- Add all tracked Kenzo repos -->
+  <include name="kenzo.xml" />
 
 </manifest>
