@@ -38,7 +38,7 @@
   <project path="manifest" name="abc_manifest" remote="abckenzo" revision="o" />
   <project path="bootable/recovery" name="abc_bootable_recovery" groups="pdk" remote="abc" revision="o" />
   <!-- <project path="external/busybox" name="abc_external_busybox" remote="abc" revision="o" />-->
-  <!-- <project path="external/DUtils" name="abc_external_DUtils" remote="abc" revision="o" />-->
+  <project path="external/DUtils" name="abc_external_DUtils" remote="abc" revision="o" />
   <project path="external/wpa_supplicant_8" name="abc_external_wpa_supplicant_8" groups="pdk" remote="abc" revision="o" />
   <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abc" revision="o" />
   <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abckenzo" revision="o" />
@@ -51,8 +51,8 @@
   <project path="packages/apps/CellBroadcastReceiver" name="abc_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="abc" revision="o" />
   <project path="packages/apps/Contacts" name="abc_packages_apps_Contacts" groups="pdk-fs" remote="abc" revision="o" />
   <project path="packages/apps/Dialer" name="abc_packages_apps_Dialer" groups="pdk-fs" remote="abc" revision="o" />
-  <!-- <project path="packages/apps/DSPlibs" name="abc_packages_apps_DSPlibs" remote="abc" revision="o" />
-  <project path="packages/apps/DUI" name="abc_packages_apps_DUI" remote="abc" revision="o" />-->
+  <!-- <project path="packages/apps/DSPlibs" name="abc_packages_apps_DSPlibs" remote="abc" revision="o" />-->
+  <project path="packages/apps/DUI" name="abc_packages_apps_DUI" remote="abc" revision="o" />
   <project path="packages/apps/Launcher3" name="abc_packages_apps_Launcher3" remote="abc" revision="o" />
   <project path="packages/apps/MusicFX" name="abc_packages_apps_MusicFX" groups="pdk-fs" remote="abc" revision="o" />
   <project path="packages/apps/PackageInstaller" name="abc_packages_apps_PackageInstaller" groups="pdk-fs" remote="abc" revision="o" />
