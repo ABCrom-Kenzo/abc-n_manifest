@@ -43,7 +43,7 @@
   <project path="frameworks/av" name="abc_frameworks_av" groups="pdk" remote="abckenzo" revision="o" />
   <project path="frameworks/base" name="abc_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="abckenzo" revision="o" />
   <project path="frameworks/native" name="abc_frameworks_native" groups="pdk" remote="abc" revision="o" />
-  <project path="frameworks/opt/telephony" name="abc_frameworks_opt_telephony" groups="pdk" remote="abc" revision="o" />
+  <project path="frameworks/opt/telephony" name="abc_frameworks_opt_telephony" groups="pdk" remote="abckenzo" revision="o" />
   <project path="frameworks/rs" name="abc_frameworks_rs" groups="pdk" remote="abc" revision="o" />
   <project path="frameworks/support" name="abc_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o" />
   <project path="packages/apps/AbcSettings" name="abc_packages_apps_AbcSettings" remote="abc" revision="o" />
@@ -64,7 +64,7 @@
   <project path="packages/providers/MediaProvider" name="abc_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o" />
   <project path="packages/providers/TelephonyProvider" name="abc_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o" />
   <project path="packages/services/Telecomm" name="abc_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o" />
-  <project path="packages/services/Telephony" name="abc_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="o" />
+  <project path="packages/services/Telephony" name="abc_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="abckenzo" revision="o" />
   <project path="external/toybox" name="abc_external_toybox" groups="pdk" remote="abc" revision="o" />
   <project path="system/core" name="abc_system_core" groups="pdk" remote="abckenzo" revision="o" />
   <project path="system/extras" name="abc_system_extras" groups="pdk" remote="abc" revision="o" />
