@@ -33,6 +33,7 @@
     <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="nos" revision="o" />
 
 	<!-- Mount-->
+	<project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="nos" revision="o" />
 	<project path="external/exfat" name="android_external_exfat" remote="nos" revision="o" />
 	<project path="external/fuse" name="android_external_fuse" remote="nos" revision="o" />
 	<project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="o" />
