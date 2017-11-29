@@ -3,7 +3,9 @@
     <remote name="nos"
         fetch="https://github.com/nitrogen-project"
         sync-j="16"/>
-
+	<remote name = "bb"
+          revision = "master"
+          fetch = "https://bitbucket.org/" />
     <!-- external -->
     <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="nos" revision="o" />
     <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="nos" revision="o" />
@@ -38,4 +40,8 @@
 	<project path="external/fuse" name="android_external_fuse" remote="nos" revision="o" />
 	<project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="o" />
 	<project path="system/vold" name="android_system_vold" remote="nos" revision="o" />
+
+	
+  <!-- UBER Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" />
 </manifest>
