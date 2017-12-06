@@ -5,7 +5,7 @@ Tip and tricks:
 
 Repo init command:
 
-	repo init -u https://github.com/ABCrom-Kenzo/abc_manifest.git -b o
+	repo init -u https://github.com/ABCrom-Kenzo/abc_manifest.git -b o2
 
 Sync source (for future syncs, if you have errors, try "repo sync --force-sync")
 
