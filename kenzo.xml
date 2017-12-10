@@ -8,8 +8,6 @@
           fetch = "https://bitbucket.org/" />
     <!-- external -->
     <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="nos" revision="o2" />
-    <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="nos" revision="o" />
-    <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="nos" revision="o" />
 
     <!-- hardware -->
     <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="abckenzo" revision="o2-8952" />
@@ -19,7 +17,6 @@
     <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="abckenzo" revision="o2-8952" />
 
     <!-- vendor -->
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nos" revision="o" />
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="nos" revision="o2" />
     <project path="vendor/qcom/opensource/fm" name="android_vendor_qcom_opensource_fm" remote="abckenzo" revision="o2" />
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="o2" />
