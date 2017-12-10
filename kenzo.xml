@@ -12,27 +12,26 @@
     <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="nos" revision="o" />
 
     <!-- hardware -->
-    <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="abckenzo" revision="o-8952" />
-    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="nos" revision="o-8952" />
-    <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="nos" revision="o-8952" />
-    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="nos" revision="o-8952" />
-    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" revision="o-8952" />
-    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="nos" revision="o-8952" />
-    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="nos" revision="o-8952" />
+    <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="abckenzo" revision="o2-8952" />
+    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="abckenzo" revision="o2-8952" />
+    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="abckenzo" revision="o2-8952" />
+    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="abckenzo" revision="o2-8952" />
+    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="abckenzo" revision="o2-8952" />
 
     <!-- vendor -->
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nos" revision="o" />
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="nos" revision="o2" />
-    <project path="vendor/qcom/opensource/fm" name="android_vendor_qcom_opensource_fm" remote="nos" revision="o" />
+    <project path="vendor/qcom/opensource/fm" name="android_vendor_qcom_opensource_fm" remote="abckenzo" revision="o2" />
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="o2" />
 
 	<!-- Kenzo trees -->
-	<project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" groups="device,kenzo,broadcom_pdk,pdk" remote="abckenzo" revision="o" />
-	<project path="kernel/xiaomi/kenzo" name="android_kernel_xiaomi_kenzo" groups="device,kenzo,broadcom_pdk,pdk" remote="abckenzo" revision="o" />
-	<project path="vendor/xiaomi/kenzo" name="android_vendor_xiaomi_kenzo" remote="abckenzo" revision="o" />
+	<project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" groups="device,kenzo,broadcom_pdk,pdk" remote="abckenzo" revision="o2" />
+	<project path="kernel/xiaomi/kenzo" name="android_kernel_xiaomi_kenzo" groups="device,kenzo,broadcom_pdk,pdk" remote="abckenzo" revision="o2" />
+	<project path="vendor/xiaomi/kenzo" name="android_vendor_xiaomi_kenzo" remote="abckenzo" revision="o2" />
   
-	<!-- package -->
-    <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="nos" revision="o" />
+	<!-- packages -->
+    <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="abckenzo" revision="o2" />
+    <project path="packages/apps/Stk" name="abc_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="abckenzo" revision="o2" />
 
 	<!-- Mount-->
 	<project path="external/exfat" name="android_external_exfat" remote="nos" revision="o2" />
