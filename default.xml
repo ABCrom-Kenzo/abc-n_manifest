@@ -69,7 +69,7 @@
   <project path="external/toybox" name="abc_external_toybox" groups="pdk" remote="abc" revision="o2" />
   <project path="system/core" name="abc_system_core" groups="pdk" remote="abckenzo" revision="o2" />
   <project path="system/extras" name="abc_system_extras" groups="pdk" remote="abc" revision="o2" />
-  <project path="system/media" name="abc_system_media" groups="pdk" remote="abc" revision="o2" />
+  <project path="system/media" name="abc_system_media" groups="pdk" remote="abckenzo" revision="o2" />
   <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" revision="o2" />
   <project path="vendor/nexus" name="abc_vendor_nexus" remote="abckenzo" revision="o2" />
 
