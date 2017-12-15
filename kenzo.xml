@@ -38,7 +38,9 @@
 	<project path="external/fuse" name="android_external_fuse" remote="nos" revision="o2" />
 	<project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="o2" />
 	<project path="system/vold" name="android_system_vold" remote="nos" revision="o2" />
-	
+
+	<!-- System -->
+    <project path="system/bt" name="android_system_bt" remote="nos" revision="o2" />
   <!-- UBER Toolchains -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" />
 </manifest>
