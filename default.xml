@@ -18,7 +18,7 @@
            fetch="https://github.com/substratum/" />
 
   <!-- Scripts -->
-  <project path="scripts" name="scripts" remote="abc" revision="o2" />
+  <project path="scripts" name="scripts" remote="abckenzo" revision="o2" />
   <!-- <project path="scripts/vendor-blobs-extractfromfactory" name="vendor-blobs-extractfromfactory" remote="abc" revision="o2" /> -->
   <project path="scripts/enjarify-prebuiltApkExtraction" name="enjarify-prebuiltApkExtraction" remote="abc" revision="o2" />
   <!-- ABC Repo's -->
