@@ -73,10 +73,10 @@
   <project path="system/sepolicy" name="abc_system_sepolicy" groups="pdk" remote="abc" revision="o2" />
   <project path="vendor/nexus" name="abc_vendor_nexus" remote="abckenzo" revision="o2" />
 
-    <!-- Substratum
+  <!-- Substratum
   <project path="packages/services/ThemeInterfacer" name="interfacer" remote="substratum" revision="n-rootless" />-->
 
-    <!-- AOSP trees -->
+  <!-- AOSP trees -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="art" name="platform/art" groups="pdk" />
