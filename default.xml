@@ -41,7 +41,7 @@
   <project path="frameworks/opt/telephony" name="abc_frameworks_opt_telephony" remote="abc-kenzo" revision="n2" />
   <project path="frameworks/rs" name="abc_frameworks_rs" groups="pdk" remote="abc" revision="n2" />
   <project path="frameworks/support" name="abc_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="n2" />
-  <project path="packages/apps/ABCOTA" name="android_packages_apps_ABCOTA" remote="abc-kenzo" revision="n2" />
+  <project path="packages/apps/ABCOTA" name="abc_packages_apps_ABCOTA" remote="abc-kenzo" revision="n2" />
   <project path="packages/apps/AbcSettings" name="abc_packages_apps_AbcSettings" remote="abc-kenzo" revision="n2" />
   <project path="packages/apps/Bluetooth" name="abc_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="n2" />
   <project path="packages/apps/CellBroadcastReceiver" name="abc_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="abc" revision="n2" />
@@ -50,7 +50,7 @@
   <project path="packages/apps/Dialer" name="abc_packages_apps_Dialer" groups="pdk-fs" remote="abc-kenzo" revision="n2" />
   <project path="packages/apps/DSPlibs" name="abc_packages_apps_DSPlibs" remote="abc" revision="n2" />
   <project path="packages/apps/DUI" name="abc_packages_apps_DUI" remote="abc-kenzo" revision="n2" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="abc" revision="n2" />
+  <project path="packages/apps/Gallery2" name="abc_packages_apps_Gallery2" remote="abc" revision="n2" />
   <project path="packages/apps/Launcher3" name="AospExtended/platform_packages_apps_Launcher3" remote="github" revision="7.x" />
   <project path="packages/apps/MusicFX" name="AospExtended/platform_packages_apps_MusicFX" groups="pdk-fs" remote="github" revision="7.x" />
   <project path="packages/apps/PackageInstaller" name="abc_packages_apps_PackageInstaller" groups="pdk-fs" remote="abc-kenzo" revision="n2" />
@@ -112,7 +112,6 @@
   <project path="external/archive-patcher" name="platform/external/archive-patcher" groups="pdk" />
   <project path="external/autotest" name="platform/external/autotest" />
   <project path="external/avahi" name="platform/external/avahi" />
-  <project path="external/bison" name="LineageOS/android_external_bison" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
@@ -124,7 +123,7 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="abc-kenzo" revision="n2" />
+  <project path="external/chromium-webview" name="abc_external_chromium-webview" groups="pdk" remote="abc-kenzo" revision="n2" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
@@ -140,7 +139,6 @@
   <project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" />
   <project path="external/dng_sdk" name="platform/external/dng_sdk" />
-  <project path="external/dnsmasq" name="LineageOS/android_external_dnsmasq" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
@@ -208,7 +206,6 @@
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/libbrillo" name="platform/external/libbrillo" />
   <project path="external/libcap" name="platform/external/libcap" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" />
@@ -223,11 +220,9 @@
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libgdx" name="platform/external/libgdx" groups="pdk" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
-  <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" />
-  <project path="external/libmpeg2" name="LineageOS/android_external_libmpeg2" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
@@ -245,7 +240,6 @@
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libweave" name="platform/external/libweave" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
@@ -302,15 +296,13 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="abc-kenzo" revision="n2" />
+  <project path="external/skia" name="abc_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="abc-kenzo" revision="n2" />
   <project path="external/sl4a" name="platform/external/sl4a" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
-  <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
@@ -326,7 +318,6 @@
   <project path="external/tlsdate" name="platform/external/tlsdate" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
   <project path="external/tpm2" name="platform/external/tpm2" />
-  <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
   <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" />
@@ -337,21 +328,16 @@
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/exfat" name="android_external_exfat" remote="nos" revision="n2" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="n2" />
-  <project path="external/fuse" name="android_external_fuse" remote="nos" revision="n2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
@@ -395,16 +381,9 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="nos" revision="n2" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="nos" revision="n2-caf" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="abc-kenzo" revision="n2-8952" />
+  <project path="hardware/qcom/audio" name="abc_hardware_qcom_audio" remote="abc-kenzo" revision="n2-8952" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="nos" revision="n2-8952" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="nos" revision="n2-8952" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" revision="n2-8952" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="nos" revision="n2-8952" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
@@ -427,7 +406,6 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
-  <project path="packages/apps/Stk" name="android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="nos" revision="n2" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" />
@@ -478,7 +456,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="DirtyUnicorns/android_system_bt" remote="github" revision="n7x" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
@@ -492,7 +469,6 @@
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
-  <project path="system/vold" name="android_system_vold" groups="pdk" remote="nos" revision="n2" />
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
   <project path="toolchain/binutils" name="toolchain/binutils" />
@@ -517,4 +493,34 @@
 
   <!-- SD Clang -->
   <project path="vendor/qcom/sdclang-3.8/linux-x86" name="AOSP-JF-MM/android_vendor_qcom_sdclang-3.8_linux-x86" remote="github" revision="aosp-7.1.2" />
+
+  <!-- LineageOS parts -->
+  <project path="external/bison" name="LineageOS/android_external_bison" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/dnsmasq" name="LineageOS/android_external_dnsmasq" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libmpeg2" name="LineageOS/android_external_libmpeg2" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
+
+  <!-- NitrogenOS parts -->
+  <project path="external/exfat" name="android_external_exfat" remote="nos" revision="n2" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="n2" />
+  <project path="external/fuse" name="android_external_fuse" remote="nos" revision="n2" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="nos" revision="n2" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="nos" revision="n2-caf" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="nos" revision="n2-8952" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="nos" revision="n2-8952" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" revision="n2-8952" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="nos" revision="n2-8952" />
+  <project path="packages/apps/Stk" name="android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="nos" revision="n2" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="nos" revision="n2" />
+
+  <!-- DU Parts -->
+  <project path="system/bt" name="DirtyUnicorns/android_system_bt" remote="github" revision="n7x" />
 </manifest>
