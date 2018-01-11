@@ -36,6 +36,6 @@
       <project path="vendor/qcom/opensource/fm" name="android_vendor_qcom_opensource_fm" remote="nos" revision="o2" />
       <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="o2" />
     <!-- Packages -->
-    <project path="packages/apps/Snap" name="abc_packages_apps_Snap" remote="abckenzo" revision="o2" />
+    <project path="packages/apps/Camera2" name="abc_packages_apps_Camera2" remote="abckenzo" revision="o2" />
     <project path="packages/apps/Stk" name="abc_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="abckenzo" revision="o2" />
 </manifest>
