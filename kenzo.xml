@@ -37,5 +37,5 @@
     <!-- Packages -->
     <project path="packages/apps/Camera2" name="abc_packages_apps_Camera2" remote="abckenzo" revision="o2" />
     <project path="packages/apps/Stk" name="abc_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="abckenzo" revision="o2" />
-    <project path="packages/apps/ABCOTA" name="abc_packages_apps_ABCOTA" remote="abckenzo" revision="o2" />
+    <project path="packages/apps/AbcOTA" name="abc_packages_apps_AbcOTA" remote="abckenzo" revision="o2" />
 </manifest>
