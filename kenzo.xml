@@ -3,22 +3,22 @@
     <remote name="nos"
         fetch="https://github.com/nitrogen-project"
         sync-j="16"/>
-
     <!-- DSP Manager -->
     <project name="omnirom/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-8.0" />
     <!-- Hardware -->
     <project path="hardware/libhardware" name="abc_hardware_libhardware" remote="abckenzo" revision="o2" />
     <project path="hardware/libhardware_legacy" name="abc_hardware_libhardware_legacy" remote="abckenzo" revision="o2" />
     <project path="hardware/ril" name="abc_hardware_ril" remote="abckenzo" revision="o2" />
-    <project path="hardware/qcom/audio" name="abc_hardware_qcom_audio" remote="abckenzo" revision="o2-8952" />
-    <project path="hardware/qcom/bt" name="abc_hardware_qcom_bt" remote="abckenzo" revision="o2-8952" />
-    <project path="hardware/qcom/display" name="abc_hardware_qcom_display" remote="abckenzo" revision="o2-8952" />
-    <project path="hardware/qcom/media" name="abc_hardware_qcom_media" remote="abckenzo" revision="o2-8952" />
-    <project path="hardware/qcom/wlan" name="abc_hardware_qcom_wlan" remote="abckenzo" revision="o2-8952" />
+    <project path="hardware/qcom/bt" name="abc_hardware_qcom_bt" remote="abckenzo" revision="o2" />
+    <project path="hardware/qcom/wlan" name="abc_hardware_qcom_wlan" remote="abckenzo" revision="o2" />
     <!-- Kenzo trees -->
     <project path="device/xiaomi/kenzo" name="abc_device_xiaomi_kenzo" groups="device,kenzo,broadcom_pdk,pdk" remote="abckenzo" revision="o2" />
     <project path="kernel/xiaomi/kenzo" name="abc_kernel_xiaomi_kenzo" groups="device,kenzo,broadcom_pdk,pdk" remote="abckenzo" revision="o2" />
     <project path="vendor/xiaomi/kenzo" name="abc_vendor_xiaomi_kenzo" remote="abckenzo" revision="o2" />
+    <!-- MSM8952 Hardware -->
+    <project path="hardware/qcom/audio" name="abc_hardware_qcom_audio" remote="abckenzo" revision="o2-8952" />
+    <project path="hardware/qcom/display" name="abc_hardware_qcom_display" remote="abckenzo" revision="o2-8952" />
+    <project path="hardware/qcom/media" name="abc_hardware_qcom_media" remote="abckenzo" revision="o2-8952" />
     <!-- Nitrogen OS import -->
       <!-- External -->
       <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="nos" revision="o2" />
